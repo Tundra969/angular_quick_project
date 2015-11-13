@@ -43,11 +43,7 @@ module.exports = function(grunt){
             htmlRoutes:{
                 expand: true,
                 cwd: "client/views/routes/",
-                src: [
-                    "code.html",
-                    "home.html",
-                    "projects.html"
-                ],
+                src: "*.html",
                 dest: "server/public/assets/views/routes/"
             },
             htmlTemplates: {
@@ -59,7 +55,7 @@ module.exports = function(grunt){
             style: {
                 expand: true,
                 cwd: "client",
-                src: 'style/style.css',
+                src: 'styles/style.css',
                 dest: 'server/public/assets/'
             }
         }

@@ -7,12 +7,12 @@ myApp.config(['$routeProvider', function($routeProvider){
             controller: "SomeController"
 
         }).
-        when('/code', {
-            templateUrl: "/assets/views/routes/code.html",
+        when('/kittehs', {
+            templateUrl: "/assets/views/routes/kittehs.html",
             controller: "SomeController"
         }).
-        when('/projects', {
-            templateUrl: "/assets/views/routes/projects.html",
+        when('/goggies', {
+            templateUrl: "/assets/views/routes/goggies.html",
             controller: "AnotherController"
         }).
         otherwise({
